@@ -1,0 +1,169 @@
+@font-face {
+    font-family: "BeVietnamPro";
+    src: url(../fonts/BeVietnamPro-Regular.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "BeVietnamPro-Medium";
+    src: url(../fonts/BeVietnamPro-Medium.ttf) format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "BeVietnamPro-Bold";
+    src: url(../fonts/BeVietnamPro-Bold.ttf) format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "BeVietnamPro-Light";
+    src: url(../fonts/BeVietnamPro-Light.ttf) format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+body {
+    font-family: "BeVietnamPro";
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.logo {
+    height: 32px;
+    width: auto;
+    border-radius: 8px;
+}
+
+.download-mobile-app {
+    padding: 8px 12px;
+    border-radius: 10px;
+    background: #167A55;
+    color: #e3f1ea !important;
+    text-decoration: none;
+    font-family: "BeVietnamPro-Medium";
+    transition: all .3s ease;
+}
+
+.download-mobile-app:hover {
+    color: #fff !important;
+    background: #044c2f;
+}
+
+/* .home-page {} */
+
+.home-page .hero-banner {
+    background: linear-gradient(to bottom, #e3f1ea 50%, #fff);
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+    height: 590px;
+    overflow-y: hidden;
+}
+
+.home-page .hero-banner .caption {
+    font-family: "BeVietnamPro-Medium";
+    padding: 5px 12px;
+    background: #D9EFE5;
+    border-radius: 12px;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.home-page .hero-banner .title {
+    font-family: "BeVietnamPro-Bold";
+    font-size: 56px;
+    margin-bottom: 3rem;
+}
+
+.home-page .hero-banner .banner-image img {
+    border-top-left-radius: 58px;
+    border-top-right-radius: 58px;
+    box-shadow: 0 30px 80px rgba(0, 0, 0, 0.3);
+}
+
+.home-page .section-title {
+    font-size: 34px;
+    font-family: "BeVietnamPro-Bold";
+}
+
+.home-page .section-description {
+    font-size: 15px;
+}
+
+.home-page .app-utilities .utility-item .utility-icon img {
+    height: 55px;
+}
+
+.home-page .app-utilities .utility-item .utility-title {
+    font-size: 22px;
+    font-family: "BeVietnamPro-Bold";
+    margin-bottom: 15px;
+}
+
+.home-page .app-utilities .utility-item .utility-description {
+    font-size: 14px;
+    font-family: "BeVietnamPro-Light";
+    color: #5b6b65;
+}
+
+.home-page .app-utilities .utility-item {
+    transition: all .5s ease;
+}
+
+.home-page .app-utilities .utility-item:hover {
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.equal-height .col-12 {
+    display: flex;
+    flex: 1 1 0;
+}
+
+.intro-privacy {
+    background: #0b5a3f;
+    color: #ffffff;
+}
+
+.intro-privacy .privacy-policy-link:hover {
+    background-color: transparent !important;
+    text-decoration: underline;
+}
+
+.intro-privacy .app-check-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.intro-privacy .app-check-list ul li {
+    margin-bottom: 15px;
+    position: relative;
+    padding-left: 30px;
+}
+
+.intro-privacy .app-check-list ul li::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: url(../images/checklist-icon.png) no-repeat;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+}
+
+.privacy-page {}
+
+footer .footer-bottom a {
+    text-decoration: none;
+    font-family: "BeVietnamPro-Medium";
+    color: #212529;
+}
+
+footer .footer-bottom a:hover {
+    text-decoration: underline;
+}
