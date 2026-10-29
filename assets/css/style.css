@@ -33,10 +33,25 @@ body {
     font-size: 14px;
 }
 
+strong {
+    font-family: "BeVietnamPro-Bold";
+}
+
+button {
+    font-size: 14px !important;
+}
+
 .logo {
     height: 32px;
     width: auto;
     border-radius: 8px;
+}
+
+.navbar-brand span {
+    font-family: "BeVietnamPro-Bold";
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 8px;
 }
 
 .download-mobile-app {
@@ -156,7 +171,110 @@ body {
     background-position: center;
 }
 
-.privacy-page {}
+.privacy-page {
+    background: linear-gradient(to bottom, #e3f1ea 20%, #fff 80%);
+}
+
+.hero-privacy .breadcrumb {
+    text-align: left !important;
+    padding-top: 30px;
+    list-style-type: none;
+    color: #5b6b65;
+    font-size: 12px;
+}
+
+.hero-privacy h1 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-family: "BeVietnamPro-Bold";
+    font-size: 52px;
+}
+
+.hero-privacy .breadcrumb li {
+    padding-right: 8px;
+}
+
+.hero-privacy .breadcrumb li a {
+    text-decoration: none;
+    color: #212529;
+}
+
+.hero-privacy .summary-privacy {
+    width: 50%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    border-left: 3px solid #0b5a3f;
+    font-family: 14px;
+    margin-bottom: 50px;
+}
+
+.privacy-page h2 {
+    font-family: "BeVietnamPro-Bold";
+    font-size: 26px;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.privacy-page p {
+    font-family: "BeVietnamPro-Light";
+    /* font-size: 15px; */
+    line-height: 26px;
+    margin-bottom: 1rem;
+}
+
+.privacy-page ul {
+    margin-bottom: 1rem;
+}
+
+.privacy-page li {
+    margin-bottom: 10px;
+}
+
+.sidebar-privacy {
+    position: sticky;
+    /* width: 20%; */
+    top: 0;
+}
+
+.sidebar-privacy .list-group {
+    margin-top: 15px;
+}
+
+.sidebar-privacy .list-group-item {
+    padding-left: 0;
+}
+
+.sidebar-privacy .list-group-item {
+    background-color: transparent !important;
+    border: none;
+    padding: 8px 10px;
+    border-radius: 5px !important;
+    font-family: "BeVietnamPro-Medium";
+}
+
+.sidebar-privacy .list-group-item a {
+    text-decoration: none;
+    color: #3b4f48;
+    display: block;
+}
+
+.sidebar-privacy .list-group-item.active {
+    background-color: #D9EFE5 !important;
+
+}
+
+.sidebar-privacy .list-group-item.active a {
+    color: #0b5a3f !important;
+}
+
+.sidebar-privacy h4 {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #5b6b65;
+    font-family: "BeVietnamPro-Medium";
+}
+
 
 footer .footer-bottom a {
     text-decoration: none;
